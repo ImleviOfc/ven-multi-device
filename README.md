@@ -1,4 +1,4 @@
-# Games-Wabot
+# VEN-BOTZ 🗿
 
 <a href="https://github.com/BochilGaming/games-wabot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/BochilGaming/games-wabot?label=Forks&color=blue&style=flat-square"></a>
 <a href="https://github.com/BochilGaming/games-wabot/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/BochilGaming/games-wabot?label=Watchers&color=green&style=flat-square"></a>
@@ -11,7 +11,7 @@
 
 
 ## Join Group Diskusi
-[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/GVwpKf83s42D1CnIfDW19G) 
+[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/CElgl37YTIJKzugfUYIwX6) 
 **NO BOT**
 
 
@@ -214,7 +214,7 @@ conn.sendButton(m.chat, 'Hello world!', '@BochilGaming', 'https://github.com/Boc
 > You can change in `config.js`, on global.owner. make sure you use correct syntax.
 ```js
 global.owner = [
-  ['6281319944687', 'BG', true]
+  ['6285172446692', 'BG', true]
 ]
 ```
 > First argument on array is number like `6281319944687`, second argument is name like `BG` (if this argument pass, if using `owner` command, this number will send as owner), third argument is developer like `true` (if this argument pass, if there have plugins error (not syntax error) the error will send to developer)
