@@ -1,7 +1,12 @@
 let handler = async m => m.reply(`
-            .✵.GRUP AZZBOT.✵.
 
-            https://chat.whatsapp.com/JUJCquZdFHT2n1MFBPFKfT
+
+╭─「 Donasi • Pulsa dan Dana 」
+│ •  [085172446692]
+│ •  [085172446692]
+╰────
+
+    
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['donasi']
 handler.tags = ['info']
