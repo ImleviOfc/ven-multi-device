@@ -38,7 +38,7 @@ const defaultMenu = {
   before: `
 ╔════════════════╗
 ╠➤👤𝙊𝙬𝙣𝙚𝙧 : ${global.ownername}
-╠➤💻𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : YahyaGanzz
+╠➤♨️𝘽𝙤𝙩𝙉𝙖𝙢𝙚 : ཌ✼ᴠᴇɴ-ʙᴏᴛᴢ✼ད
 ╠➤⏰𝙐𝙥𝙩𝙞𝙢𝙚 : %uptime
 ╠➤🗓️𝙏𝙖𝙣𝙜𝙜𝙖𝙡: %date
 ╚═══════╦════════╝
@@ -158,10 +158,10 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     let url = `https://i.postimg.cc/nrMn3sMN/menu.jpg`
-    conn.sendHydrated(m.chat, text.trim(), 'YahyaGanzz', null, 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g', 'YOUTUBE MBY', '', '', [
-      ['𝗚𝗥𝗨𝗣 𝗕𝗢𝗧', '/donasi'],
-      ['?𝗝𝗔𝗦𝗔 𝗥𝗨𝗡?', '/sewa'],
-      ['!𝗢𝗪𝗡𝗘𝗥!', '/owner']
+    conn.sendHydrated(m.chat, text.trim(), 'ཌ✼ᴠᴇɴ-ʙᴏᴛᴢ✼ད', null, 'https://chat.whatsapp.com/CElgl37YTIJKzugfUYIwX6', 'Official Group', '', '', [
+      ['Donasi', '/donasi'],
+      ['Sewa', '/sewa'],
+      ['Owner', '/owner']
     ], m)
     /*let url = `https://telegra.ph/file/ab1df70dfd5c2bac64da1.jpg`.trim()
     let res = await fetch(url)
