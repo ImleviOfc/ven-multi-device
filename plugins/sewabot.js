@@ -10,7 +10,36 @@ let handler = async (m, { conn }) => {
   let d = await fetch(c).then(a => a.buffer())
   let prepare = await require('@adiwajshing/baileys').generateWAMessageFromContent(m.key.remoteJid,{listMessage:{
   title: `${await conn.getName(conn.user.jid)}`,
-  description: ` *HAI KAK INGIN SEWA BOT? SILAHKAN HUBUNGI OWNER*
+  description: ` 「 ཌ✼ᴠᴇɴ-ʙᴏᴛᴢ✼ད 」
+
+╭━━━━「 *SEWA* 」
+┊⫹⫺ *Hemat:* _3k/grup (1 minggu)_
+┊⫹⫺ *Normal:* _5k/grup (1 bulan)_
+┊⫹⫺ *Standar:* _10k/grup (2 bulan)_
+┊⫹⫺ *Pro:* _35k/grup (4 bulan)_                                                      
+┊⫹⫺ *Vip:* = _65k/grup (6 bulan & 1 bulan *Premium*)_
+╰═┅═━––––––๑
+
+╭━━━━「 *PREMIUM* 」
+┊⫹⫺ *Hemat:* _3k (1 minggu)_
+┊⫹⫺ *Normal:* _10k (1 bulan)_
+┊⫹⫺ *Pro:* _40k (4 bulan)_
+┊⫹⫺ *Vip:* _50k (8 bulan)_                                               
+┊⫹⫺ *Permanent:* = _999k (Unlimited)_
+╰═┅═━––––––๑
+
+*⫹⫺ PAYMENT:*
+• *Pulsa:* [085172446692]
+• *Dana:* [085172446692]
+
+–––––– *🐾 Kebijakan* ––––––
+🗣️: Kak, Kok harganya mahal banget?
+💬: Mau tawar menawar? boleh, silahkan chat owner aja
+
+🗣️: Scam ga nih kak?
+💬: Enggalah
+
+▌│█║▌║▌║║▌║▌║█│▌ 
   
 
 ☞𝑜𝑤𝑛𝑒𝑟 ❀wa.me/${owner[0]}♨️
